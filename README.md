@@ -26,4 +26,9 @@ Try to learn all the data structure concept gradually
     - **Singly Linked List**
         - Deletion
             - Inbetween
+    - **Doubly Linked List**
+        - Creating Doubly Linked List
+        - Forward Traversal
+        - Backward Traversal
+        
 
