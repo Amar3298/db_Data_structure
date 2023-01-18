@@ -63,8 +63,11 @@ class Linked_List:
                     break
                 else:
                     n = n.ref
-            if(n.ref==None):
+            if(n==None):
                 print("Node is not present in the Linked List")
+            elif(n.ref==None):
+                new_Node = Node(data)
+                n.ref = new_Node
             else:
                 new_Node = Node(data)
                 new_Node.ref = n.ref
@@ -112,5 +115,6 @@ obj1.print_LL()
 obj1.remove_end()
 obj1.print_LL()
 obj1.remove_value(30)
+obj1.add_after(75,50)
 obj1.print_LL()
 

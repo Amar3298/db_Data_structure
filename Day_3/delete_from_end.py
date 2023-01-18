@@ -42,8 +42,11 @@ class Linked_list:
                     break
                 else:
                     n = n.ref
-            if(n.ref==None):
+            if(n==None):
                 print("Node is present in the Linked List")
+            elif(n.ref==None):
+                new_Node = Node(data)
+                n.ref = new_Node
             else:
                 new_Node = Node(data)
                 new_Node.ref = n.ref
@@ -96,4 +99,5 @@ obj1.add_before(100,50)
 obj1.print_LL()
 obj1.remove_head()
 obj1.remove_end()
+obj1.add_after(75,50)
 obj1.print_LL()
