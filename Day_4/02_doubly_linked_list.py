@@ -11,7 +11,7 @@ class doublyLinkedlost:
             print("Linked list is empty")
         else:
             n = self.head
-            while(n.nref!=None):
+            while(n!=None):
                 if(n.nref!=None):
                     print(n.data,end=" --> ")
                 else:
@@ -22,7 +22,7 @@ class doublyLinkedlost:
             print("Linked List is empty")
         else:
             n = self.head
-            while(n.ref!=None):
+            while(n!=None):
                 n = n.nref
             while(n.pref!=None):
                 if(n.pref!=None):
