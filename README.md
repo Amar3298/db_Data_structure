@@ -30,14 +30,14 @@ Try to learn all the data structure concept gradually
         - Creating Doubly Linked List
         - Forward Traversal
         - Backward Traversal
-4. **Day 5**
+5. **Day 5**
     - **Doubly Linked List**
         - Insertion
             - In empty Doubly Linked list
             - Head 
             - End
         - Traversal of Doubly Linked List(Updated)
-        - Forward Traversal
-        - Backward Traversal
+            - Forward Traversal
+            - Backward Traversal
         
 
